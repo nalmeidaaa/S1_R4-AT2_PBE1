@@ -12,8 +12,8 @@ app.get("/produtos/:paginas", (req, res) => { //GET -> Coleta os dados da "/prod
         // Conversão de JSON em Objeto JS
         let produtos = JSON.parse(data); //Variavel de ambiente do node, para transformar um objeto JSON em JavaScript
 
-        let pagina; //A função slice (ou slicing) serve para extrair uma porção (uma "fatia") de uma sequência de dados, como um array ou uma string, e retornar essa porção como uma nova sequência, sem modificar a original
-
+        let pagina;
+        //A função slice (ou slicing) serve para extrair uma porção (uma "fatia") de uma sequência de dados, como um array ou uma string, e retornar essa porção como uma nova sequência, sem modificar a original
         if (paginas == 1) {
             pagina = produtos.slice(0, 10);
         } else if (paginas == 2) {
