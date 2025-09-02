@@ -7,19 +7,16 @@ app.get("/produtos/:paginas", (req, res) => { //GET -> Coleta os dados da "/prod
     try {
         // Ler o arquivo JSON
         const data = fs.readFileSync('./produtos.json', 'utf-8');
-        const { paginas } = req.params //Foi usado "dataEvento", pois se eu colocar "data", daria conflito com a constante de cima
+        const { paginas } = req.params
 
         // Conversão de JSON em Objeto JS
-        let produtos = JSON.parse(data); //Variavel de ambiente do node, para transformar um objeto JSON em JavaScript
+        let produtos = JSON.parse(data);
 
-        let pagina;
+        let numProdutos = paginas*10 //Essa variável existe para a cada página, mostrar os próximos 10 produtos
+
         //A função slice (ou slicing) serve para extrair uma porção (uma "fatia") de uma sequência de dados, como um array ou uma string, e retornar essa porção como uma nova sequência, sem modificar a original
-        if (paginas == 1) {
-            pagina = produtos.slice(0, 10);
-        } else if (paginas == 2) {
-            pagina = produtos.slice(10, 20);
-        } else if (paginas == 3) {
-            pagina = produtos.slice(20, 30);
+        if (paginas < 4) {
+            pagina = produtos.slice((numProdutos-10), numProdutos);
         } else {
             return res.status(404).json({ message: "Página não encontrada" });
         }
