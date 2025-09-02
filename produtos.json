@@ -1,0 +1,183 @@
+[
+    {
+      "idProduto": 1,
+      "nomeProduto": "Camiseta Algodão",
+      "tipoProduto": "Vestuário",
+      "valorProduto": 39.90
+    },
+    {
+      "idProduto": 2,
+      "nomeProduto": "Calça Jeans Masculina",
+      "tipoProduto": "Vestuário",
+      "valorProduto": 129.90
+    },
+    {
+      "idProduto": 3,
+      "nomeProduto": "Tênis Esportivo",
+      "tipoProduto": "Calçados",
+      "valorProduto": 249.90
+    },
+    {
+      "idProduto": 4,
+      "nomeProduto": "Notebook 14''",
+      "tipoProduto": "Informática",
+      "valorProduto": 2799.00
+    },
+    {
+      "idProduto": 5,
+      "nomeProduto": "Mouse Sem Fio",
+      "tipoProduto": "Informática",
+      "valorProduto": 59.90
+    },
+    {
+      "idProduto": 6,
+      "nomeProduto": "Teclado Mecânico",
+      "tipoProduto": "Informática",
+      "valorProduto": 299.00
+    },
+    {
+      "idProduto": 7,
+      "nomeProduto": "Smartphone 128GB",
+      "tipoProduto": "Eletrônicos",
+      "valorProduto": 1799.00
+    },
+    {
+      "idProduto": 8,
+      "nomeProduto": "Fone de Ouvido Bluetooth",
+      "tipoProduto": "Eletrônicos",
+      "valorProduto": 149.90
+    },
+    {
+      "idProduto": 9,
+      "nomeProduto": "Copo Térmico 500ml",
+      "tipoProduto": "Utilidades Domésticas",
+      "valorProduto": 79.90
+    },
+    {
+      "idProduto": 10,
+      "nomeProduto": "Liquidificador 1000W",
+      "tipoProduto": "Eletrodomésticos",
+      "valorProduto": 229.90
+    },
+    {
+      "idProduto": 11,
+      "nomeProduto": "Panela Antiaderente 24cm",
+      "tipoProduto": "Utilidades Domésticas",
+      "valorProduto": 89.90
+    },
+    {
+      "idProduto": 12,
+      "nomeProduto": "Chaleira Elétrica",
+      "tipoProduto": "Eletrodomésticos",
+      "valorProduto": 139.90
+    },
+    {
+      "idProduto": 13,
+      "nomeProduto": "Cadeira Gamer",
+      "tipoProduto": "Móveis",
+      "valorProduto": 899.00
+    },
+    {
+      "idProduto": 14,
+      "nomeProduto": "Mesa Escritório MDF",
+      "tipoProduto": "Móveis",
+      "valorProduto": 399.00
+    },
+    {
+      "idProduto": 15,
+      "nomeProduto": "Luminária LED",
+      "tipoProduto": "Iluminação",
+      "valorProduto": 59.90
+    },
+    {
+      "idProduto": 16,
+      "nomeProduto": "Relógio de Parede",
+      "tipoProduto": "Decoração",
+      "valorProduto": 49.90
+    },
+    {
+      "idProduto": 17,
+      "nomeProduto": "Travesseiro Ortobom",
+      "tipoProduto": "Cama e Banho",
+      "valorProduto": 69.90
+    },
+    {
+      "idProduto": 18,
+      "nomeProduto": "Edredom Queen Size",
+      "tipoProduto": "Cama e Banho",
+      "valorProduto": 219.90
+    },
+    {
+      "idProduto": 19,
+      "nomeProduto": "Jogo de Toalhas 5 peças",
+      "tipoProduto": "Cama e Banho",
+      "valorProduto": 129.90
+    },
+    {
+      "idProduto": 20,
+      "nomeProduto": "Ar Condicionado Split 12000 BTU",
+      "tipoProduto": "Eletrodomésticos",
+      "valorProduto": 2299.00
+    },
+    {
+      "idProduto": 21,
+      "nomeProduto": "Chinelo Havaianas",
+      "tipoProduto": "Calçados",
+      "valorProduto": 29.90
+    },
+    {
+      "idProduto": 22,
+      "nomeProduto": "Vestido Floral",
+      "tipoProduto": "Vestuário",
+      "valorProduto": 89.90
+    },
+    {
+      "idProduto": 23,
+      "nomeProduto": "Jaqueta Corta Vento",
+      "tipoProduto": "Vestuário",
+      "valorProduto": 159.90
+    },
+    {
+      "idProduto": 24,
+      "nomeProduto": "Caixa de Som Portátil",
+      "tipoProduto": "Eletrônicos",
+      "valorProduto": 199.90
+    },
+    {
+      "idProduto": 25,
+      "nomeProduto": "Aspirador de Pó 1400W",
+      "tipoProduto": "Eletrodomésticos",
+      "valorProduto": 349.90
+    },
+    {
+      "idProduto": 26,
+      "nomeProduto": "Batedeira Planetária",
+      "tipoProduto": "Eletrodomésticos",
+      "valorProduto": 499.00
+    },
+    {
+      "idProduto": 27,
+      "nomeProduto": "Sanduicheira Inox",
+      "tipoProduto": "Eletrodomésticos",
+      "valorProduto": 99.90
+    },
+    {
+      "idProduto": 28,
+      "nomeProduto": "Jogo de Panelas Tramontina",
+      "tipoProduto": "Utilidades Domésticas",
+      "valorProduto": 399.90
+    },
+    {
+      "idProduto": 29,
+      "nomeProduto": "Fogão 4 bocas",
+      "tipoProduto": "Eletrodomésticos",
+      "valorProduto": 1299.00
+    },
+    {
+      "idProduto": 30,
+      "nomeProduto": "Frigideira Antiaderente",
+      "tipoProduto": "Utilidades Domésticas",
+      "valorProduto": 69.90
+    }
+  ]
+  
