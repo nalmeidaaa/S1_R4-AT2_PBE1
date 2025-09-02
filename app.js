@@ -8,9 +8,16 @@ app.get("/usuarios", (req, res) => { //GET -> Coleta os dados da "/usuarios"
     try {
         // Ler o arquivo JSON
         const data = fs.readFileSync('./usuarios.json', 'utf-8');
+        const { nome } = req.query
 
         // Conversão de JSON em Objeto JS
         let usuarios = JSON.parse(data); //Variavel de ambiente do node, para transformar um objeto JSON em JavaScript
+
+        if ( nome ) {
+            usuarios = usuarios.filter(
+                usuario => usuario.nome.toLowerCase().includes(nome.toLowerCase())); // Devolve um vetor com os elementos que a condição passar nessa condição
+
+        }
 
         res.status(200).json(usuarios); // Resposta com o código de status 200 (que significa "Sucesso Geral"), e a anexar a um corpo da resposta o objeto ou array produtos no formato JSON
 
