@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nome": "Nicolas Almeida",
+        "email": "nabpessoal@gmail.com"
+    },
+    {
+        "id": 2,
+        "nome": "Giovanna Vitoria",
+        "email": "gilokinha@gmail.com"
+    },
+    {
+        "id": 3,
+        "nome": "João Maziero",
+        "email": "maua@gmail.com"
+    },
+    {
+        "id": 4,
+        "nome": "Luisa Bazan",
+        "email": "babylulu@gmail.com"
+    },
+    {
+        "id": 5,
+        "nome": "Ramom Vinicius",
+        "email": "ben10radical@gmail.com"
+    }
+]
