@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "titulo": "A revolução dos bichos",
+        "autor": "George Orwell",
+        "ano": 1945
+    },
+    {
+        "id": 2,
+        "titulo": "Vinte mil léguas submarinas",
+        "autor": "Júlio Verne",
+        "ano": 1870
+    },
+    {
+        "id":3,
+        "titulo": "Olhos d'água",
+        "autor": "Conceição Evaristo",
+        "ano": 2014
+    },
+    {
+        "id": 4,
+        "titulo": "A princesa do reino dividido",
+        "autor": "Avila Regiane",
+        "ano": 2019
+    },
+    {
+        "id": 5,
+        "titulo": "O livro de receitas anarquistas",
+        "autor": "William Powell",
+        "ano": 1971
+    }
+]
